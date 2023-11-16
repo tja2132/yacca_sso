@@ -10,8 +10,6 @@ import json
 
 from fastapi.staticfiles import StaticFiles
 
-import env
-
 app = FastAPI()
 
 os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1"
