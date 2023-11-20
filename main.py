@@ -30,6 +30,7 @@ async def home_page():
     <!DOCTYPE html>
     <html lang="en">
     <form action="{OAUTH_URL}/auth/login">
+    <h1> YACCA SSO </h1>
     <button type="submit" class="button">Login with Google</button>
     </form>
     </html>
