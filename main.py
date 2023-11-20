@@ -12,7 +12,7 @@ app = FastAPI()
 os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1"
 CLIENT_ID = os.environ["CLIENT_ID"]
 CLIENT_SECRET = os.environ["CLIENT_SECRET"]
-OAUTH_URL = os.environ["OAATH_URL"]
+OAUTH_URL = os.environ["OAUTH_URL"]
 
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
